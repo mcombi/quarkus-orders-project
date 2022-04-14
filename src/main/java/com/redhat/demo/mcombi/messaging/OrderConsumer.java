@@ -1,4 +1,4 @@
-package com.redhat.demo.mcombi;
+package com.redhat.demo.mcombi.messaging;
 import com.redhat.demo.mcombi.model.Order;
 import io.smallrye.reactive.messaging.kafka.Record;
 import org.eclipse.microprofile.reactive.messaging.Incoming;

@@ -1,5 +1,5 @@
 
-package com.redhat.demo.mcombi;
+package com.redhat.demo.mcombi.messaging;
 
 
 import com.redhat.demo.mcombi.model.Order;

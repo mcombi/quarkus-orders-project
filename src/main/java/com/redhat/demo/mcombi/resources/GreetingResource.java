@@ -1,4 +1,4 @@
-package com.redhat.demo.mcombi;
+package com.redhat.demo.mcombi.resources;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
