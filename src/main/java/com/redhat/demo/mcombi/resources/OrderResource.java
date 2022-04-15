@@ -1,9 +1,10 @@
-package com.redhat.demo.mcombi;
+package com.redhat.demo.mcombi.resources;
 import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
+import com.redhat.demo.mcombi.messaging.OrderProducer;
 import com.redhat.demo.mcombi.model.Order;
 import org.jboss.logging.Logger;
 
