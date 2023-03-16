@@ -10,6 +10,7 @@ public class Order {
     }
 
     public Order (String description,int quantity){
+
         this.description=description;
         this.quantity=quantity;
     }
