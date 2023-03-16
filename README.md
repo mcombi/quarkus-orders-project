@@ -1,5 +1,8 @@
 # quarkus-getting-started Project
 
+To build and deploy on openshift you have to run this command:
+./mvnw clean package -Dquarkus.kubernetes.deploy=true -Dmaven.test.skip=true
+
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
