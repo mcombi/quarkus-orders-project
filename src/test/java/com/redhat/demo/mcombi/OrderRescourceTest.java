@@ -13,7 +13,7 @@ public class OrderRescourceTest {
     public void testOrderEndpoint() {
         given()
         .contentType("application/json")
-        .body(new Order("desc",1))
+        .body(new Order("desc",1,"test"))
         .when()
         .post("/order")
                 .then()

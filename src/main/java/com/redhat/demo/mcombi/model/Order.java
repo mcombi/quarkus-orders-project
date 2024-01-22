@@ -5,14 +5,17 @@ public class Order {
     public int id;
     public int quantity;
 
+    public String itemCategory;
+
     public Order(){
 
     }
 
-    public Order (String description,int quantity){
+    public Order (String description,int quantity,String itemCategory){
 
         this.description=description;
         this.quantity=quantity;
+        this.itemCategory=itemCategory;
     }
 
 }
